@@ -4,13 +4,13 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { Provider } from 'react-redux';
 import { store } from './redux/store';
 import { checkAuthStatus } from './redux/authActions';
-import Screen01 from './screens/Screen01';
-import Screen02 from './screens/Screen02';
-import Screen03 from './screens/Screen03';
-import Screen04 from './screens/Screen04';
-import Screen05 from './screens/Screen05';
-import Screen06 from './screens/Screen06';
-import EditProfile from './screens/EditProfile';
+import Screen01 from './Screens/Screen01.js';
+import Screen02 from './Screens/Screen02.js';
+import Screen03 from './Screens/Screen03.js';
+import Screen04 from './Screens/Screen04.js';
+import Screen05 from './Screens/Screen05.js';
+import Screen06 from './Screens/Screen06.js';
+import EditProfile from './Screens/EditProfileUser.js';
 
 const Stack = createStackNavigator();
 
