@@ -10,7 +10,7 @@ import Screen03 from './Screens/Screen03.js';
 import Screen04 from './Screens/Screen04.js';
 import Screen05 from './Screens/Screen05.js';
 import Screen06 from './Screens/Screen06.js';
-import EditProfile from './Screens/EditProfileUser.js';
+import EditProfileUser from './Screens/EditProfileUser.js';
 
 const Stack = createStackNavigator();
 
@@ -44,7 +44,7 @@ function App() {
           {/* Các màn hình khác */}
           <Stack.Screen name="Screen04" component={Screen04} />
           <Stack.Screen name="Screen06" component={Screen06} />
-          <Stack.Screen name="EditProfile" component={EditProfile} />
+          <Stack.Screen name="EditProfileUser" component={EditProfileUser} />
         </Stack.Navigator>
       </NavigationContainer>
     </Provider>
